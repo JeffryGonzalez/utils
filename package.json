@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -w --reporter=spec"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +12,9 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^8.0.1"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "lodash": "^4.17.19"
   }
 }
